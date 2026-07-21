@@ -1,0 +1,176 @@
+.sidebar a.active {
+    background-color: var(--accent);
+}
+.sidebar button.active {
+    background-color: var(--surface-active);
+}
+
+.sidebar a:hover {
+    background-color: var(--surface-2);
+}
+.sidebar button:hover {
+    background-color: var(--surface-2);
+}
+
+.sidebar .header {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .header .profile {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.sidebar .header .profile:hover {
+    background-color: var(--surface-2);
+}
+.sidebar .header .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.sidebar .header .profile .user {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar .header a {
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.sidebar .header .bell {
+    margin-left: auto;
+}
+
+.sidebar .header .profilemenu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--surface-1);
+    box-shadow: 0px 0px 5px 2px var(--surface-2);
+}
+.sidebar .header .profiledown {
+    display: flex;
+}
+
+.sidebar .header .profilemenu button {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+.sidebar .header .profilemenu button svg {
+    margin-right: 10px;
+}
+
+.sidebar .addtask {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.sidebar .addtask svg {
+    margin-right: 10px;
+}
+.sidebar .addtask svg * {
+    fill: var(--accent);
+    stroke: var(--surface-1);
+}
+.sidebar .addtask p {
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.sidebar .nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .nav a {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.sidebar .nav a svg {
+    margin-right: 10px;
+}
+
+.sidebar .nav .search {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sidebar .nav svg {
+    margin-right: 10px;
+}
+
+.sidebar .myprojects {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.sidebar .myprojects p {
+    font-weight: bold;
+}
+
+.sidebar .help {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.sidebar .help svg {
+    margin-right: 10px;
+}
+.sidebar .help p {
+    font-weight: bold;
+}
+
+.sidebar .helpmenu {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--surface-1);
+    box-shadow: 0px 0px 5px 2px var(--surface-2);
+}
+.sidebar .helpdown {
+    display: flex;
+}
+
+.sidebar .helpmenu button {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+.sidebar .helpmenu button svg {
+    margin-right: 10px;
+}
